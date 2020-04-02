@@ -113,8 +113,14 @@ a.nav-btn {
 }
 .navigation ul li {
   list-style: none;
-  font-size: var(--secondary-text-font-size);
+  font-size: 1.5rem;
   padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+.navigation ul li i {
+  margin-right: 5px;
 }
 .navigation.active {
   clip-path: circle(100%);
