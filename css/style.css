@@ -4,6 +4,7 @@
   --color-2: #fde2e2;
   --color-3: #aacfcf;
   --color-4: #679b9b;
+  --color-5: #555;
   --secondary-text-font-size: 1.2rem;
   --header-main-font-size: 3.2rem;
   --primary-overlay-color: rgba(53, 46, 49, 0.781);
@@ -43,6 +44,9 @@ body {
   }
   body a.nav-btn {
     right: 25px;
+  }
+  .about-box {
+    flex-wrap: wrap;
   }
 }
 a.nav-btn {
@@ -124,4 +128,30 @@ a.nav-btn {
 }
 .navigation.active {
   clip-path: circle(100%);
+}
+
+/* ===============
+  About Section  
+=============== */
+
+.about-box {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.about-box:nth-child(1) {
+  flex: 1;
+  text-align: center;
+}
+.about-box:nth-child(2) {
+  flex: 1;
+}
+.about-box:nth-child(3) {
+  flex: 1;
+}
+
+.card {
+  padding: 1rem;
+  margin-bottom: 10px;
+
+  text-align: center;
 }
