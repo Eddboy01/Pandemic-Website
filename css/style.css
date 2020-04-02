@@ -73,6 +73,14 @@ a.nav-btn {
 .header .content p {
   font-size: var(--secondary-text-font-size);
 }
+.header .content button {
+  font-size: 1rem;
+  padding: 10px 2rem;
+  margin-top: 15px;
+  background-color: var(--color-3);
+  border: 2px solid var(--color-3);
+  border-radius: 50px;
+}
 /* ===============
     NAVIGATION
    =============== */
