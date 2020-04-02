@@ -133,7 +133,9 @@ a.nav-btn {
 /* ===============
   About Section  
 =============== */
-
+.about-section {
+  padding: 2rem;
+}
 .about-box {
   display: flex;
   /* flex-wrap: wrap; */
@@ -154,4 +156,8 @@ a.nav-btn {
   margin-bottom: 10px;
 
   text-align: center;
+}
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
